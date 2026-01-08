@@ -1,0 +1,19 @@
+local args = {
+	"PurchaseContent",
+	game:GetService("ReplicatedStorage"):WaitForChild("Assets"):WaitForChild("Killers"):WaitForChild("test")
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Modules"):WaitForChild("Network"):WaitForChild("RemoteFunction"):InvokeServer(unpack(args))
+
+
+local args = {
+	"PurchaseContent",
+	game:GetService("ReplicatedStorage"):WaitForChild("Assets"):WaitForChild("Killers"):WaitForChild("test2")
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Modules"):WaitForChild("Network"):WaitForChild("RemoteFunction"):InvokeServer(unpack(args))
+
+
+local args = {
+	"PurchaseContent",
+	game:GetService("ReplicatedStorage"):WaitForChild("Assets"):WaitForChild("Survivors"):WaitForChild("##2x2")
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Modules"):WaitForChild("Network"):WaitForChild("RemoteFunction"):InvokeServer(unpack(args))
